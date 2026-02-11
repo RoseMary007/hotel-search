@@ -1,7 +1,7 @@
 import HotelCard from "./HotelCard";
 
 function HotelList({ hotels, onSelect }) {
-  if (!hotels.length) return <p>No places found</p>;
+  if (!hotels.length) return <p>Search your heart out...</p>;
 
   return (
     <div style={{ maxHeight: "400px", overflowY: "auto" }}>
